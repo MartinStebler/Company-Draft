@@ -1,0 +1,174 @@
+body {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Coustard';
+	color: #888;
+
+}
+
+@font-face {
+	font-family: Coustard;
+	src: url("../stylesheets/Coustard-Regular.ttf");
+}
+
+.active {
+	z-index: 999;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.inactive {
+	z-index: 999;
+	filter: alpha(opacity=30);
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+
+.show {
+	margin-left: 10px;
+}
+
+.contact {
+	display:none;
+	width: 100%;
+	margin-left: 10px;
+}
+
+.design {
+	margin-left: 10px;
+	padding-right: 10px;
+}
+
+.subtit {
+	font-weight: bold;
+}
+
+.title {
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.proimg{
+	float: left;
+}
+
+.prodesc {
+	float: left;
+	text-align: left;
+	width: 50%;
+	margin-left: 20px;
+
+}
+
+.singlepro {
+	width: 100%;
+	padding-bottom: 10px;
+	height: 200px;
+		margin-left: 10px;
+	margin-right: 10px;
+}
+
+.content {
+	display: none;
+	padding: 10px;
+}
+
+#sec-wrapper {
+	width: 620px;
+	height: 420px;
+	margin: 0 auto;
+	margin-top: 100px;
+}	
+
+.maintitle {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.main-sec {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 5px;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
+}
+
+.main-sec-active {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 5px;
+	-moz-box-shadow: 0 0 5px #111;
+	-webkit-box-shadow: 0 0 5px#111;
+	box-shadow: 0 0 5px #111;
+}
+
+.left {
+	margin-left: 100px;
+}
+
+#top-left {
+	margin-top: 80%;
+	padding-right: 15px;
+	float: right;
+	
+}
+
+#top-right {
+	margin-top: 80%;
+	padding-left: 15px;
+	float: left;
+}
+
+#bottom-left {
+	padding-right: 15px;
+	float: right;
+	
+}
+
+#bottom-right {
+	padding-left: 15px;
+	float: left;
+}
+
+input, textarea {  
+    padding: 9px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+    background: #FFFFFF;  
+    }  
+  
+textarea {  
+    width: 400px;  
+    max-width: 400px;  
+    height: 150px;  
+    line-height: 150%;  
+    }  
+  
+input:hover, textarea:hover,  
+input:focus, textarea:focus {  
+    border-color: #C9C9C9;  
+    }  
+  
+.form label {  
+    margin-left: 10px;  
+    color: #999999;  
+    }  
+  
+.submit input {  
+    width: auto;  
+    padding: 9px 15px;  
+    background: #617798;  
+    border: 0;  
+    font-size: 14px;  
+    color: #FFFFFF;  
+    }
+
